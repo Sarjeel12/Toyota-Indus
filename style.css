@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.name{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    font-size: small;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+    width: 77px;
+    height: 60px;
+    padding: 10px;
+}
+.nav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+}
+.btn{
+    background-color: brown;
+    width: 80px;
+    height: 70px;
+    border: none;
+    padding: 5px;
+}
+.poster{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+}
+.center{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.cards{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+    width: 30%;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.cardpic{
+    width: 289.36px;
+    height: 230px;
+}
+.data{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+    font-size: small;
+}
+.two{
+    width: 30%;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.cardpic{
+    width: 289.36px;
+    height: 230px;
+}
+.data{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+    font-size: small;
+}
+.three{
+    width: 30%;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.cardpic{
+    width: 289.36px;
+    height: 230px;
+}
+.data{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+    font-size: small;
+}
+.cardsec{
+    width: 100%;
+    height: auto;
+}
+.discover{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.first img{
+    width: 300px;
+    height: 300px;
+}
+.second img{
+    width: 300px;
+    height: 300px;
+}
+.third img{
+    width: 300px;
+    height: 300px;
+}
+.fourth img{
+    width: 300px;
+    height: 300px;
+}
