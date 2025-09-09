@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header{
+
+.header {
     width: 100%;
     height: 100px;
 }
-.name{
+
+.name {
     width: 100%;
     height: 25px;
     background-color: black;
@@ -18,7 +20,8 @@
     justify-content: center;
     align-items: center;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     height: 90px;
     /* background-color: aqua; */
@@ -26,43 +29,52 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     margin-left: 50px;
     width: 77px;
     height: 60px;
     padding: 10px;
 }
-.nav{
-    width: 40%;
+
+.nav {
+    width: 60%;
     height: 100%;
     display: flex;
+    justify-items: flex-end;
     justify-content: space-between;
     align-items: center;
     font-size: small;
+    flex-wrap: wrap;
 }
-.btn{
+
+.btn {
     background-color: brown;
     width: 80px;
     height: 70px;
     border: none;
     padding: 5px;
 }
-.poster{
+
+.poster {
     margin-top: 10px;
     width: 100%;
     height: 400px;
 }
-.center{
+
+.center {
     width: 100%;
     height: auto;
     margin-top: 40px;
 }
-.content{
+
+.content {
     width: 100%;
     height: auto;
     text-align: center;
 }
-.names{
+
+.names {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,14 +82,16 @@
     margin-top: 30px;
     cursor: pointer;
 }
-.cards{
+
+.cards {
     width: 100%;
     height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.one{
+
+.one {
     width: 30%;
     height: 240px;
     display: flex;
@@ -85,11 +99,13 @@
     align-items: center;
     padding: 10px;
 }
-.cardpic{
+
+.cardpic {
     width: 289.36px;
     height: 230px;
 }
-.data{
+
+.data {
     background-color: black;
     color: white;
     width: 300px;
@@ -97,7 +113,8 @@
     padding: 10px;
     font-size: small;
 }
-.two{
+
+.two {
     width: 30%;
     height: 240px;
     display: flex;
@@ -105,11 +122,13 @@
     align-items: center;
     padding: 10px;
 }
-.cardpic{
+
+.cardpic {
     width: 289.36px;
     height: 230px;
 }
-.data{
+
+.data {
     background-color: black;
     color: white;
     width: 300px;
@@ -117,7 +136,8 @@
     padding: 10px;
     font-size: small;
 }
-.three{
+
+.three {
     width: 30%;
     height: 240px;
     display: flex;
@@ -125,11 +145,13 @@
     align-items: center;
     padding: 10px;
 }
-.cardpic{
+
+.cardpic {
     width: 289.36px;
     height: 230px;
 }
-.data{
+
+.data {
     background-color: black;
     color: white;
     width: 300px;
@@ -137,37 +159,50 @@
     padding: 10px;
     font-size: small;
 }
-.cardsec{
+
+.notes{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(185, 185, 185);
+}
+
+.cardsec {
     width: 100%;
     height: auto;
 }
-.discover{
+
+.discover {
     width: 100%;
     height: auto;
     padding: 10px;
     text-align: center;
 }
-.card{
+
+.card {
     display: flex;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     margin-top: 10px;
     padding: 5px;
 }
-.first img{
+
+.first img {
     width: 300px;
     height: 300px;
 }
-.second img{
+
+.second img {
     width: 300px;
     height: 300px;
 }
-.third img{
+
+.third img {
     width: 300px;
     height: 300px;
 }
-.fourth img{
+
+.fourth img {
     width: 300px;
     height: 300px;
 }
